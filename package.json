@@ -6,11 +6,6 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
     "test:watch": "npm run test -- --watch"
   },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -25,5 +20,10 @@
   },
   "dependencies": {
     "immutable": "^3.8.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
